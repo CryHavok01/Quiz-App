@@ -7,8 +7,7 @@ class Page extends React.Component {
   }
 
   handleClick(e) {
-    const value = (e.target.value);
-    const points = Number(value);
+    const points = Number(e.target.value);
     this.props.addScore(points);
 }
 
