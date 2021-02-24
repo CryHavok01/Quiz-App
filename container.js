@@ -12,6 +12,7 @@ class Container extends React.Component {
         };
         this.addScore = this.addScore.bind(this);
         this.nextQuestion = this.nextQuestion.bind(this);
+        this.reset = this.reset.bind(this);
     }
 
     addScore(points) {
