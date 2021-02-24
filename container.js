@@ -7,7 +7,7 @@ class Container extends React.Component {
         super(props);
         this.state = {
             score: 0,
-            question: 2,
+            question: 1,
             result: null,
         };
         this.addScore = this.addScore.bind(this);
