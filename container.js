@@ -3,31 +3,41 @@
 const e = React.createElement;
 
 class Container extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        score: 0,
-        question: 0,
-        result: null,
-    };
-    this.addScore = this.addScore.bind(this);
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+            score: 0,
+            question: 2,
+            result: null,
+        };
+        this.addScore = this.addScore.bind(this);
+    }
 
-  addScore(points) {
-      let currScore = this.state.score;
-      let newScore = currScore + points;
-      this.setState({score: newScore});
-  }
+    addScore(points) {
+        let currScore = this.state.score;
+        let newScore = currScore + points;
+        this.setState({ score: newScore });
+    }
 
-  render() {
+    nextQuestion() {
+        let currQ = this.state.question;
+        let nextQ = currQ + 1;
+        this.setState({question: nextQ});
+    }
 
-    return (
-        <div>  
-            <Page addScore={this.addScore} />
-            {this.state.score}
-        </div>
-    );
-  }
+    render() {
+
+        return (
+            <div>
+                <Page
+                    addScore={this.addScore}
+                    nextQuestion={this.nextQuestion}
+                    question={this.state.question}
+                />
+                {this.state.score}
+            </div>
+        );
+    }
 }
 
 const domContainer = document.querySelector('#container');
