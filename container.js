@@ -14,7 +14,7 @@ class Container extends React.Component {
   }
 
   addScore(points) {
-      let currScore = this.state.scorel
+      let currScore = this.state.score;
       let newScore = currScore + points;
       this.setState({score: newScore});
   }
