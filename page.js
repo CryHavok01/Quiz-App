@@ -33,6 +33,13 @@ class Page extends React.Component {
                     nextQuestion={this.props.nextQuestion}
                 />
             )
+        } else if (this.props.question === 4) {
+            return (
+                <Results
+                    score={this.props.score}
+                    reset={this.props.reset}
+                />
+            )
         }
     }
 }

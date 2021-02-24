@@ -26,6 +26,12 @@ class Container extends React.Component {
         this.setState({question: nextQ});
     }
 
+    reset() {
+        this.setState({
+            score: 0,
+            question: 1
+        })
+    }
     render() {
 
         return (
@@ -33,7 +39,9 @@ class Container extends React.Component {
                 <Page
                     addScore={this.addScore}
                     nextQuestion={this.nextQuestion}
+                    reset={this.reset}
                     question={this.state.question}
+                    score={this.state.score}
                 />
                 {this.state.score}
             </div>
