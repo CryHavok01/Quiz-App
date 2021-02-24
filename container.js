@@ -24,7 +24,7 @@ class Container extends React.Component {
     return (
         <div>  
             <Page addScore={this.addScore} />
-            {this.score}
+            {this.state.score}
         </div>
     );
   }
