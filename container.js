@@ -6,9 +6,9 @@ class Container extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        score: 0;
-        question: 0;
-        result: null;
+        score: 0,
+        question: 0,
+        result: null,
     };
     this.addScore = this.addScore.bind(this);
   }
@@ -19,12 +19,13 @@ class Container extends React.Component {
       this.setState({score: newScore});
   }
 
-  
-
-
   render() {
 
     return (
+        <div>  
+            <Page addScore={this.addScore} />
+            {this.score}
+        </div>
     );
   }
 }
