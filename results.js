@@ -1,6 +1,6 @@
 'use strict';
 
-class Question1 extends React.Component {
+class Results extends React.Component {
     constructor(props) {
         super(props);
         this.handleClick = this.handleClick.bind(this);
