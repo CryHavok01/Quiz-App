@@ -35,6 +35,20 @@ class Page extends React.Component {
             )
         } else if (this.props.question === 4) {
             return (
+                <Question4
+                    addScore={this.props.addScore}
+                    nextQuestion={this.props.nextQuestion}
+                />
+            )
+        } else if (this.props.question === 5) {
+            return (
+                <Question5
+                    addScore={this.props.addScore}
+                    nextQuestion={this.props.nextQuestion}
+                />
+            )
+        } else if (this.props.question === 6) {
+            return (
                 <Results
                     score={this.props.score}
                     reset={this.props.reset}

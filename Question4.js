@@ -1,6 +1,6 @@
 'use strict';
 
-class Question2 extends React.Component {
+class Question4 extends React.Component {
     constructor(props) {
         super(props);
         this.handleClick = this.handleClick.bind(this);
@@ -16,39 +16,39 @@ class Question2 extends React.Component {
         return (
             <div>
                 <h2>
-                    Question 2:
+                    Question 4:
                 </h2>
                 <p>
-                    There's one donut left in the breakroom at work.  You've had one already, and you know some of your coworkers haven't been to the breakroom yet, but you're still hungry.  What do you do?
+                    A flying Saucer crash lands in your back yard.  What do you do?
                 </p>
                 <div>
-                    <p>Leave the donut alone and let someone else eat it.</p>
+                    <p>Drag the ship's pilot out of the wrecakge, and nurse them back to health.</p>
                     <button type="button" value="1" onClick={this.handleClick}>
-                        Leave It
+                        Rescue Survivor
                     </button>
                 </div>
                 <div>
-                    <p>Eat the donut, but buy a box of donuts on the way into work tomorrow</p>
+                    <p>Study the ship's engines and unlock the secrets of interstellar travel</p>
                     <button type="button" value="2" onClick={this.handleClick}>
-                        Buy Donuts
+                        Learn to Fly
                     </button>
                 </div>
                 <div>
-                    <p>Grab the donut and slink back to your desk where no one can see your shame</p>
+                    <p>Call a lawyer and see if you can sue an alien for ruining the garden you just finished planting.</p>
                     <button type="button" value="3" onClick={this.handleClick}>
-                        Eat in Shame
+                        Seek Damages
                     </button>
                 </div>
                 <div>
-                    <p>Eat the donut happily, and then appologize when someone realizes they're all gone</p>
+                    <p>Scour the ship for lasers, phasers, tasers, and any other awesome alien weapons to play with.</p>
                     <button type="button" value="4" onClick={this.handleClick}>
-                        Eat and Say Sorry
+                        Pew Pew
                     </button>
                 </div>
                 <div>
-                    <p>Pull the fire alarm so no one sees you take the donut.  Then take a nap in your car while the Fire Department clears the building.</p>
+                    <p>Hire an agent and start making plans to turn your good luck into tv appearances, a book deal, maybe even a biopic starring one of the Chrises.</p>
                     <button type="button" value="5" onClick={this.handleClick}>
-                        Create a Diversion
+                        Cash In
                     </button>
                 </div>
             </div>
