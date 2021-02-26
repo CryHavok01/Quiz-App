@@ -11,7 +11,6 @@ class Results extends React.Component {
     }
 
     render() {
-        if (this.props.score >= 5) {
             return (
                 <div>
                     You're a number!
