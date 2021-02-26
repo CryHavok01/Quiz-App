@@ -11,14 +11,13 @@ class Results extends React.Component {
     }
 
     render() {
-            return (
-                <div>
-                    You're a number!
-                    <button type="button" onClick={this.handleClick}>
-                        Start Over
-                    </button>
-                </div>
-            )
-        }
+        return (
+            <div>
+                You're a number!
+            <button type="button" onClick={this.handleClick}>
+                    Start Over
+                </button>
+            </div>
+        )
     }
 }
