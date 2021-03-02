@@ -44,7 +44,6 @@ class Container extends React.Component {
                     question={this.state.question}
                     score={this.state.score}
                 />
-                {this.state.score}
             </div>
         );
     }
