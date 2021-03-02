@@ -3,21 +3,29 @@
 class Results extends React.Component {
     constructor(props) {
         super(props);
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick(e) {
-        this.props.reset();
     }
 
     render() {
-        return (
-            <div>
-                You're a number!
-            <button type="button" onClick={this.handleClick}>
-                    Start Over
-                </button>
-            </div>
-        )
+        if (this.props.score < 8) {
+            return (
+                <Poof reset={this.props.reset} />
+            )
+        } else if (this.props.score < 13){
+            return (
+                <Piggy reset={this.props.reset} />
+            )
+        } else if (this.props.score < 18){
+            return (
+                <Shriv reset={this.props.reset} />
+            )
+        } else if (this.props.score < 23){
+            return (
+                <Ulic reset={this.props.reset} />
+            )
+        } else {
+            return (
+                <Eighty reset={this.props.reset} />
+            )
+        }
     }
 }
