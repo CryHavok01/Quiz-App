@@ -17,9 +17,9 @@ class Question2 extends React.Component {
             <div>
                 <div className="row">
                     <div className="col">
-                        <p>
+                        <h3>
                             There's one donut left in the breakroom at work.  You've had one already, and you know some of your coworkers haven't been to the breakroom yet, but you're still hungry.  What do you do?
-                        </p>
+                        </h3>
                     </div>
                 </div>
                 <div className="row">

@@ -24,7 +24,7 @@ class Question5 extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <img src="pics/jedi.png" alt="Jedi Knights" />
+                        <img src="pics/jedi.jpg" alt="Jedi Knights" />
                     </div>
                 </div>
                 <div className="row">
