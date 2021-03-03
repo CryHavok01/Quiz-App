@@ -19,7 +19,7 @@ class Poof extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/Poof.png" className="img-fluid" alt="Yarael Poof" />
                     </div>
                 </div>

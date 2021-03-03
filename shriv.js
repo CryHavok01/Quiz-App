@@ -19,7 +19,7 @@ class Shriv extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/Shriv.jpg" className="img-fluid" alt="Shriv Suurgav" />
                     </div>
                 </div>

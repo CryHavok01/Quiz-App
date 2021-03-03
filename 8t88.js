@@ -19,7 +19,7 @@ class Eighty extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/8t88.png" className="img-fluid" alt="8T88" />
                     </div>
                 </div>

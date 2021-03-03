@@ -19,7 +19,7 @@ class Ulic extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/Ulic.jpg" className="img-fluid" alt="Ulic Qel Droma" />
                     </div>
                 </div>

@@ -16,7 +16,7 @@ class Question4 extends React.Component {
         return (
             <div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <h3>
                             A flying Saucer crash lands in your back yard.  What do you do?
                         </h3>
