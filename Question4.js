@@ -16,14 +16,14 @@ class Question4 extends React.Component {
         return (
             <div>
                 <div className="row">
-                    <div className="col text-center">
+                    <div className="col">
                         <h3>
                             A flying Saucer crash lands in your back yard.  What do you do?
                         </h3>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/ufo.jpg" className="img-fluid" alt="Flying saucer" />
                     </div>
                 </div>
