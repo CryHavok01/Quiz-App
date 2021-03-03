@@ -24,7 +24,7 @@ class Question4 extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <img src="pics/ufo.jpg" alt="Flying saucer" />
+                        <img src="pics/ufo.jpg" className="img-fluid" alt="Flying saucer" />
                     </div>
                 </div>
                 <div className="row">
