@@ -23,7 +23,7 @@ class Question5 extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/jedi.jpg" className="img-fluid" alt="Jedi Knights" />
                     </div>
                 </div>
