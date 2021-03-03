@@ -29,27 +29,27 @@ class Question1 extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <button type="button" value="4" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" value="4" onClick={this.handleClick}>
                             The Mandalorian
                         </button>
                     </div>
                     <div className="col">
-                        <button type="button" value="1" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block"value="1" onClick={this.handleClick}>
                             The Last Jedi
                         </button>
                     </div>
                     <div className="col">
-                        <button type="button" value="5" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block"value="5" onClick={this.handleClick}>
                             Revenge of the Sith
                         </button>
                     </div>
                     <div className="col">
-                        <button type="button" value="3" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block"value="3" onClick={this.handleClick}>
                             Rogue One
                         </button>
                     </div>
                     <div className="col">
-                        <button type="button" value="2" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block"value="2" onClick={this.handleClick}>
                             The Empire Strikes Back
                         </button>
                     </div>
