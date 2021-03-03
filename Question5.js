@@ -15,25 +15,44 @@ class Question5 extends React.Component {
     render() {
         return (
             <div>
-                <h3>
-                    Adventure. Excitement. A Jedi craves not these things.  What do you crave?
-                </h3>
-                <div>
-                    <button type="button" value="1" onClick={this.handleClick}>
-                        Serenity
-                    </button>
-                    <button type="button" value="2" onClick={this.handleClick}>
-                        Knowledge
-                    </button>
-                    <button type="button" value="3" onClick={this.handleClick}>
-                        Excitement
-                    </button>
-                    <button type="button" value="4" onClick={this.handleClick}>
-                        Adventure
-                    </button>
-                    <button type="button" value="5" onClick={this.handleClick}>
-                        Power
-                    </button>
+                <div className="row">
+                    <div className="col">
+                        <h3>
+                            Adventure. Excitement. A Jedi craves not these things.  What do you crave?
+                        </h3>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <img src="pics/jedi.png" alt="Jedi Knights" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <button type="button" value="5" onClick={this.handleClick}>
+                            Power
+                        </button>
+                    </div>
+                    <div className="col">
+                        <button type="button" value="1" onClick={this.handleClick}>
+                            Serenity
+                        </button>
+                    </div>
+                    <div className="col">
+                        <button type="button" value="3" onClick={this.handleClick}>
+                            Excitement
+                        </button>
+                    </div>
+                    <div className="col">
+                        <button type="button" value="2" onClick={this.handleClick}>
+                            Knowledge
+                        </button>
+                    </div>
+                    <div className="col">
+                        <button type="button" value="4" onClick={this.handleClick}>
+                            Adventure
+                        </button>
+                    </div>
                 </div>
             </div>
         )
