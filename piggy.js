@@ -19,7 +19,7 @@ class Piggy extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col text-center">
                         <img src="pics/Piggy.jpg" className="img-fluid mx-auto" alt="Voort saBinring" />                        
                     </div>
                 </div>
