@@ -32,7 +32,7 @@ class Eighty extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <button type="button" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" onClick={this.handleClick}>
                             Start Over
                         </button>
                     </div>

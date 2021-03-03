@@ -30,31 +30,31 @@ class Question4 extends React.Component {
                 <div className="row">
                     <div className="col">
                         <p>Study the ship's engines and unlock the secrets of interstellar travel</p>
-                        <button type="button" value="2" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" value="2" onClick={this.handleClick}>
                             Learn to Fly
                         </button>
                     </div>
                     <div className="col">
                         <p>Drag the ship's pilot out of the wrecakge, and nurse them back to health.</p>
-                        <button type="button" value="1" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" value="1" onClick={this.handleClick}>
                             Rescue Survivor
                         </button>
                     </div>
                     <div className="col">
                         <p>Hire an agent and start making plans to turn your good luck into tv appearances, a book deal, maybe even a biopic starring one of the Chrises.</p>
-                        <button type="button" value="5" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" value="5" onClick={this.handleClick}>
                             Cash In
                     </button>
                     </div>
                     <div className="col">
                         <p>Scour the ship for lasers, phasers, tasers, and any other awesome alien weapons to play with.</p>
-                        <button type="button" value="4" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" value="4" onClick={this.handleClick}>
                             Pew Pew
                     </button>
                     </div>
                     <div className="col">
                         <p>Call a lawyer and see if you can sue an alien for ruining the garden you just finished planting.</p>
-                        <button type="button" value="3" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
                             Seek Damages
                     </button>
                     </div>
