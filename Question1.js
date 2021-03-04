@@ -27,28 +27,28 @@ class Question1 extends React.Component {
                         <img src="pics/Logo.svg" className="img-fluid" alt="Star Wars Logo" />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row justify-content-around">
                     <div className="col question">
                         <button type="button" className="btn btn-primary btn-block" value="4" onClick={this.handleClick}>
                             The Mandalorian
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="1" onClick={this.handleClick}>
                             The Last Jedi
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="5" onClick={this.handleClick}>
                             Revenge of the Sith
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
                             Rogue One
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="2" onClick={this.handleClick}>
                             The Empire Strikes Back
                         </button>
