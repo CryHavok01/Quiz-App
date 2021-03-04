@@ -28,7 +28,7 @@ class Question1 extends React.Component {
                     </div>
                 </div>
                 <div className="row justify-content-around">
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="4" onClick={this.handleClick}>
                             The Mandalorian
                         </button>
