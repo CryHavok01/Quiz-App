@@ -30,7 +30,7 @@ class Question2 extends React.Component {
                 <div className="row justify-content-around">
                     <div className="col-md-2question">
                         <div className="row">
-                            <p className="align-self-stretch">Grab the donut and slink back to your desk where no one can see your shame</p>
+                            <p>Grab the donut and slink back to your desk where no one can see your shame</p>
                         </div>
                         <div className="row align-self-end">
                             <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
