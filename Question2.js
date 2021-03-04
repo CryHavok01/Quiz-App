@@ -30,12 +30,16 @@ class Question2 extends React.Component {
                 <div className="row justify-content-around">
                     <div className="col-md-2question">
                         <div className="row">
-                            <p>Grab the donut and slink back to your desk where no one can see your shame</p>
+                            <div className="col">
+                                <p>Grab the donut and slink back to your desk where no one can see your shame</p>
+                            </div>
                         </div>
                         <div className="row align-self-end">
-                            <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
-                                Eat in Shame
-                            </button>
+                            <div className="col">
+                                <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
+                                    Eat in Shame
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-2 question">
