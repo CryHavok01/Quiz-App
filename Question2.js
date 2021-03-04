@@ -28,7 +28,7 @@ class Question2 extends React.Component {
                     </div>
                 </div>
                 <div className="row justify-content-around">
-                    <div className="col-md-2 question">
+                    <div className="col-md-2 d-flex question">
                         <p>Grab the donut and slink back to your desk where no one can see your shame</p>
                         <button type="button" className="btn btn-primary btn-block align-self-end" value="3" onClick={this.handleClick}>
                             Eat in Shame
