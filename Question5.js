@@ -27,28 +27,28 @@ class Question5 extends React.Component {
                         <img src="pics/jedi.jpg" className="img-fluid" alt="Jedi Knights" />
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col question">
+                <div className="row justify-content-around">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="5" onClick={this.handleClick}>
                             Power
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="1" onClick={this.handleClick}>
                             Serenity
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
                             Excitement
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="2" onClick={this.handleClick}>
                             Knowledge
                         </button>
                     </div>
-                    <div className="col question">
+                    <div className="col-md-2 question">
                         <button type="button" className="btn btn-primary btn-block" value="4" onClick={this.handleClick}>
                             Adventure
                         </button>
