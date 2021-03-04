@@ -34,25 +34,25 @@ class Question2 extends React.Component {
                             Eat in Shame
                         </button>
                     </div>
-                    <div className="col-md-2 question">
+                    <div className="col-md-2 d-flex flex-column justify-content-between question">
                         <p>Eat the donut happily, and then appologize when someone realizes they're all gone</p>
                         <button type="button" className="btn btn-primary btn-block align-self-end" value="4" onClick={this.handleClick}>
                             Eat and Say Sorry
                         </button>
                     </div>
-                    <div className="col-md-2 question">
+                    <div className="col-md-2 d-flex flex-column justify-content-between question">
                         <p>Leave the donut alone and let someone else eat it.</p>
                         <button type="button" className="btn btn-primary btn-block align-self-end" value="1" onClick={this.handleClick}>
                             Leave It
                         </button>
                     </div>
-                    <div className="col-md-2 question">
+                    <div className="col-md-2 d-flex flex-column justify-content-between question">
                         <p>Eat the donut, but buy a box of donuts on the way into work tomorrow</p>
                         <button type="button" className="btn btn-primary btn-block align-self-end" value="2" onClick={this.handleClick}>
                             Buy Donuts
                         </button>
                     </div>
-                    <div className="col-md-2 question">
+                    <div className="col-md-2 d-flex flex-column justify-content-between question">
                         <p>Pull the fire alarm so no one sees you take the donut.  Then take a nap in your car while the Fire Department clears the building.</p>
                         <button type="button" className="btn btn-primary btn-block align-self-end" value="5" onClick={this.handleClick}>
                             Create a Diversion
