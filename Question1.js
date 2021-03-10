@@ -34,22 +34,22 @@ class Question1 extends React.Component {
                         </button>
                     </div>
                     <div className="col-md-2 d-flex align-items-center question">
-                        <button type="button" className="btn btn-primary btn-block" value="1" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-warning btn-block" value="1" onClick={this.handleClick}>
                             The Last Jedi
                         </button>
                     </div>
                     <div className="col-md-2 d-flex align-items-center question">
-                        <button type="button" className="btn btn-primary btn-block" value="5" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-warning btn-block" value="5" onClick={this.handleClick}>
                             Revenge of the Sith
                         </button>
                     </div>
                     <div className="col-md-2 d-flex align-items-center question">
-                        <button type="button" className="btn btn-primary btn-block" value="3" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-warning btn-block" value="3" onClick={this.handleClick}>
                             Rogue One
                         </button>
                     </div>
                     <div className="col-md-2 d-flex align-items-center question">
-                        <button type="button" className="btn btn-primary btn-block" value="2" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-warning btn-block" value="2" onClick={this.handleClick}>
                             The Empire Strikes Back
                         </button>
                     </div>
