@@ -8,7 +8,6 @@ class Container extends React.Component {
         this.state = {
             score: 0,
             question: 1,
-            result: null,
         };
         this.addScore = this.addScore.bind(this);
         this.nextQuestion = this.nextQuestion.bind(this);
