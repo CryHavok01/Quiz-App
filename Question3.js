@@ -18,7 +18,7 @@ class Question3 extends React.Component {
                 <div className="row">
                     <div className="col">
                         <h3>
-                            When you were a kid, what did you want to be when you grew up?
+                            Question 3: <br></br>When you were a kid, what did you want to be when you grew up?
                         </h3>
                     </div>
                 </div>
