@@ -29,7 +29,7 @@ class Question1 extends React.Component {
                 </div>
                 <div className="row justify-content-around">
                     <div className="col-md-2 d-flex align-items-center question">
-                        <button type="button" className="btn btn-primary btn-block" value="4" onClick={this.handleClick}>
+                        <button type="button" className="btn btn-warning btn-block" value="4" onClick={this.handleClick}>
                             The Mandalorian
                         </button>
                     </div>
